@@ -16,7 +16,7 @@ This repository contains the client-side code for a web application built with R
 
 Here are some images from the application to give you a glimpse of its interface:
 
-![Homepage](public/AppImages/Homepage.png)
+![Homepage](public/AppImages/HomePage.png)
 _Homepage: On the home page, you can select a PDF file._
 
 ![PdfSelected](public/AppImages/PdfSelected.png)
