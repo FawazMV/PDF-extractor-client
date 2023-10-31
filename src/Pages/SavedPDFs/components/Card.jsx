@@ -21,11 +21,12 @@ const Card = ({ pdfPath }) => {
       onLoadSuccess={onDocumentLoadSuccess}
     >
       <div
-        className={`${bgColor} relative flex flex-col items-center p-1 shadow-2xl mx-2 mb-4 bg-teal-600`}
+        className={`${bgColor} relative flex flex-col justify-between items-center p-1 shadow-2xl mx-2 mb-4 bg-teal-600`}
       >
         <div className='absolute top-0 right-0 mt-2 mr-2 px-2 py-1 bg-teal-500 text-white rounded-full text-xs'>
           {numPages}
         </div>
+
         <div className='relative'>
           <Page className='w-full h-auto' pageNumber={pageNumber} width={240} />
           <div
