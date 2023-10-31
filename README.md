@@ -12,6 +12,20 @@ This repository contains the client-side code for a web application built with R
 - **React.js**: Built with React.js for efficient client-side operations.
 - **Customization**: Ability to customize the extracted PDF's page selection.
 
+## Application Images
+
+Here are some images from the application to give you a glimpse of its interface:
+
+![Homepage](public/AppImages/Homepage.png)
+_Homepage: On the home page, you can select a PDF file._
+
+![PdfSelected](public/AppImages/PdfSelected.png)
+_PdfSelected: In this view, you can see the selected PDF in its entirety and select the pages you want to extract for a new PDF._
+
+![SavedPDFs](public/AppImages/SavedPDFs.png)
+_SavedPDFs: This section allows authenticated users to view the PDFs they've exported earlier._
+
+
 ## Installation
 
 To run this application locally, follow these steps:
