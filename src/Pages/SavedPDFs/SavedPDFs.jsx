@@ -40,14 +40,11 @@ const SavedPDFs = () => {
 
   return (
     <div className='pt-20 text-center'>
-      {datas?.length ? (
-        // If there are saved PDFs, display a header
-        <h1 className='text-4xl py-2 font-bold mt-4 text-blue-50'>
-          Extracted PDFs
-        </h1>
-      ) : (
-        <></>
-      )}
+      <h1 className='text-4xl h-14 py-2 font-bold mt-4 text-blue-50'>
+        {/* // If there are saved PDFs, display a header */}
+        {datas?.length ? 'Extracted PDFs' : ''}
+      </h1>
+
       <div className='flex justify-evenly flex-wrap gap-2'>
         {!datas ? (
           // If data is not yet loaded, display shimmer cards

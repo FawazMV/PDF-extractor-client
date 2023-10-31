@@ -2,9 +2,9 @@ import { bgColor } from '../../../utils/constants'
 import './shimmer.css'
 
 const ShimmerCard = () => (
-  <div className='w-[260px] m-2 sm:m-5 animate-pulse'>
+  <div className='w-[250px] m-2 sm:m-5 animate-pulse'>
     <div
-      className={`bg-blue-300 relative p-1 w-full rounded h-80 shadow flex-col flex justify-between`}
+      className={`bg-blue-300 relative p-1 w-full rounded h-[350px] shadow flex-col flex justify-between`}
     >
       <div
         className={` bg-blue-300 h-6 w-5 absolute top-3 right-3 rounded-full animate-pulse `}
